@@ -1,1 +1,113 @@
+body{
+  background-color: #eee;
+}
+thead td{
+  color: blue;
+}
+td{ border: 3px solid black;
+padding-left: 2%; 
+background-color:#eee;
+} 
+h4{
+    color:black;
+}
+h1{
+  color:black;
+}
+h3{
+  color:black;
+}
+p{
+  text-align: center;
+  color:black;
+}
+th{
+  text-align: left;
+}
+.lo{
+  margin-left: 600px;
+  height: 40%;
+}
+.topnav{
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #eee;
+     padding-left: 50px;
+     border-radius: 5px;
+     height: 10%;
+     width: 100%;
+}
+.button{
+    display: inline-block;
+    font-size: 20;
+    padding:50px 50px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    background-color:red;
+    border-radius: 8px;
+    outline: none;
+}
+.flip-card {
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    perspective: 1000px;
+    float: left;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-card-back {
+    background-color: #6dd5ed;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .tablink {
+    background-color: #555;
+    color: ggg;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  .tablink:hover {
+    background-color: #777;
+  }
+  .tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 20%;
+  }
+  #Paid {background-color: eee;}
+  #Un-paid {background-color: eee;}
 
