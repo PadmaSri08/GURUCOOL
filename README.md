@@ -1,3 +1,25 @@
-# GURUCOOL
+<h1 align="center" id="title">GURUCOOL</h1>
 
-Through this online event planning booking system we present a comprehensive   solution for event booking as per user’s wish and their  perspective. This is an online booking software that is easy to use, easy to understand, and offers the simplicity of fast point-and-click service to the customers. It is designed purely for users who want to reduce their stress in organizing and planning their event. The booking is done immediately and anyone can approach the site to plan their event.
+<p id="description">This Course Registration system is a One-Stop Solution for all high-payment enrolling institutions and is designed purely for students who wants to skill-up and to give the students quality-education in their comfort zone.</p>
+
+  
+  
+<h2>🧐 Features</h2>
+
+Here're some of the project's best features:
+
+*   Ease of access to students
+*   Vast amount of knowledge
+*   Questions or concerns will be addressed quickly
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   HTML
+*   CSS
+*   Java Script
+*   Node JS
+*   MySQL
